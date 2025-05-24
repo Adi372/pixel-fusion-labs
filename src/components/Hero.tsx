@@ -4,36 +4,36 @@ import { Button } from "@/components/ui/button";
 
 const Hero = () => {
   return (
-    <section className="relative min-h-screen bg-gradient-to-br from-slate-900 via-blue-900 to-indigo-900 dark:from-slate-100 dark:via-blue-100 dark:to-indigo-100 overflow-hidden transition-colors duration-300">
+    <section className="relative min-h-screen bg-gradient-to-br from-slate-900 via-blue-900 to-indigo-900 overflow-hidden">
       {/* Animated background elements */}
       <div className="absolute inset-0">
-        <div className="absolute top-20 left-10 w-72 h-72 bg-blue-500/10 dark:bg-blue-500/20 rounded-full blur-3xl animate-pulse"></div>
-        <div className="absolute bottom-20 right-10 w-96 h-96 bg-green-500/10 dark:bg-green-500/20 rounded-full blur-3xl animate-pulse delay-700"></div>
-        <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-purple-500/5 dark:bg-purple-500/15 rounded-full blur-3xl"></div>
+        <div className="absolute top-20 left-10 w-72 h-72 bg-blue-500/10 rounded-full blur-3xl animate-pulse"></div>
+        <div className="absolute bottom-20 right-10 w-96 h-96 bg-green-500/10 rounded-full blur-3xl animate-pulse delay-700"></div>
+        <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-purple-500/5 rounded-full blur-3xl"></div>
       </div>
 
       {/* Floating tech icons */}
       <div className="absolute inset-0 overflow-hidden">
-        <Code className="absolute top-1/4 left-1/4 w-8 h-8 text-blue-400/30 dark:text-blue-600/50 animate-bounce" style={{ animationDelay: '0s' }} />
-        <Laptop className="absolute top-1/3 right-1/4 w-6 h-6 text-green-400/30 dark:text-green-600/50 animate-bounce" style={{ animationDelay: '1s' }} />
-        <Smartphone className="absolute bottom-1/3 left-1/3 w-7 h-7 text-purple-400/30 dark:text-purple-600/50 animate-bounce" style={{ animationDelay: '2s' }} />
+        <Code className="absolute top-1/4 left-1/4 w-8 h-8 text-blue-400/30 animate-bounce" style={{ animationDelay: '0s' }} />
+        <Laptop className="absolute top-1/3 right-1/4 w-6 h-6 text-green-400/30 animate-bounce" style={{ animationDelay: '1s' }} />
+        <Smartphone className="absolute bottom-1/3 left-1/3 w-7 h-7 text-purple-400/30 animate-bounce" style={{ animationDelay: '2s' }} />
       </div>
 
       <div className="relative container mx-auto px-6 py-20 flex items-center min-h-screen">
         <div className="max-w-4xl mx-auto text-center">
           <div className="mb-8">
-            <div className="inline-block px-4 py-2 bg-blue-500/20 dark:bg-blue-500/30 rounded-full border border-blue-500/30 dark:border-blue-500/50 mb-6">
-              <span className="text-blue-300 dark:text-blue-700 text-sm font-medium">🚀 Next-Generation Web Solutions</span>
+            <div className="inline-block px-4 py-2 bg-blue-500/20 rounded-full border border-blue-500/30 mb-6">
+              <span className="text-blue-300 text-sm font-medium">🚀 Next-Generation Web Solutions</span>
             </div>
             
-            <h1 className="text-5xl md:text-7xl font-bold text-white dark:text-slate-900 mb-6 leading-tight transition-colors duration-300">
+            <h1 className="text-5xl md:text-7xl font-bold text-white mb-6 leading-tight">
               Crafting Digital
-              <span className="block bg-gradient-to-r from-blue-400 via-green-400 to-purple-400 dark:from-blue-600 dark:via-green-600 dark:to-purple-600 bg-clip-text text-transparent">
+              <span className="block bg-gradient-to-r from-blue-400 via-green-400 to-purple-400 bg-clip-text text-transparent">
                 Excellence
               </span>
             </h1>
             
-            <p className="text-xl md:text-2xl text-slate-300 dark:text-slate-700 mb-8 max-w-3xl mx-auto leading-relaxed transition-colors duration-300">
+            <p className="text-xl md:text-2xl text-slate-300 mb-8 max-w-3xl mx-auto leading-relaxed">
               We transform your vision into powerful web experiences. From enterprise solutions to cutting-edge applications, 
               we deliver technology that drives business growth.
             </p>
